@@ -1,0 +1,34 @@
+/* specific css styling for the upload page */
+
+input[type=smalltext] {
+    width: 25%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    text-align: center;
+  }
+input[type=smalltext]:focus {
+    width: 50%;
+}
+
+input[type=bigtext] {
+    width: 30%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    text-align: center;
+  }
+input[type=bigtext]:focus {
+    width: 100%;
+}
+
+#toph2{
+    margin: 4%;
+    color: brown;
+}
+
+#toph2:hover{
+    color: red;
+}
+
+#submit:hover{
+    background-color: red;
+}
